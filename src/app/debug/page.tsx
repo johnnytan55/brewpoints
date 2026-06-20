@@ -57,7 +57,6 @@ export default function DebugPage() {
             <li>NEXT_PUBLIC_BUG_DROPDOWN_OVERFLOW</li>
             <li>NEXT_PUBLIC_BUG_BIRTHDAY_CONFUSE</li>
             <li>NEXT_PUBLIC_BUG_OTP_AUTOADVANCE</li>
-            <li>NEXT_PUBLIC_BUG_LOWCONTRAST_SKIP</li>
             <li>NEXT_PUBLIC_BUG_DARKPATTERN_OPTIN</li>
             <li>NEXT_PUBLIC_BUG_HEAVY_PAYLOAD</li>
             <li>NEXT_PUBLIC_BUG_NO_ERROR_RECOVERY</li>

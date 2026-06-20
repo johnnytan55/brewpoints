@@ -9,7 +9,6 @@
   --brown-dark: #3D2516;
   --brown-medium: #6B4C3B;
   --beige: #E8D5C4;
-  --skip-cream: #F5EDE3;
 }
 
 @theme inline {
@@ -21,7 +20,6 @@
   --color-brown-dark: var(--brown-dark);
   --color-brown-medium: var(--brown-medium);
   --color-beige: var(--beige);
-  --color-skip-cream: var(--skip-cream);
   --font-sans: var(--font-nunito);
 }
 

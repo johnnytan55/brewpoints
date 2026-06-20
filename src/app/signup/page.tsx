@@ -4,7 +4,6 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import ProgressStepper from "@/components/ProgressStepper";
 import HeroImage from "@/components/HeroImage";
-import SkipLink from "@/components/SkipLink";
 import { bugFlags } from "@/lib/flags";
 
 export default function PhoneSignup() {
@@ -79,8 +78,6 @@ export default function PhoneSignup() {
           Continue
         </button>
       </form>
-
-      <SkipLink />
     </div>
   );
 }

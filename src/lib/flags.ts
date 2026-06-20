@@ -2,7 +2,6 @@ export const bugFlags = {
   dropdownOverflow: process.env.NEXT_PUBLIC_BUG_DROPDOWN_OVERFLOW !== "off",
   birthdayConfuse: process.env.NEXT_PUBLIC_BUG_BIRTHDAY_CONFUSE !== "off",
   otpAutoadvance: process.env.NEXT_PUBLIC_BUG_OTP_AUTOADVANCE !== "off",
-  lowcontrastSkip: process.env.NEXT_PUBLIC_BUG_LOWCONTRAST_SKIP !== "off",
   darkpatternOptin: process.env.NEXT_PUBLIC_BUG_DARKPATTERN_OPTIN !== "off",
   heavyPayload: process.env.NEXT_PUBLIC_BUG_HEAVY_PAYLOAD !== "off",
   noErrorRecovery: process.env.NEXT_PUBLIC_BUG_NO_ERROR_RECOVERY !== "off",
@@ -26,11 +25,6 @@ export const bugDescriptions: Record<BugFlagKey, { name: string; description: st
     name: "BUG_OTP_AUTOADVANCE",
     description: "OTP inputs auto-advance but break on paste and trap focus, hard to correct typos",
     targets: "elderly, low-literacy",
-  },
-  lowcontrastSkip: {
-    name: "BUG_LOWCONTRAST_SKIP",
-    description: "Skip for now and secondary links are cream-on-cream, fails contrast",
-    targets: "low-vision",
   },
   darkpatternOptin: {
     name: "BUG_DARKPATTERN_OPTIN",

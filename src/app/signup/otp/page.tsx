@@ -3,7 +3,6 @@
 import { useState, useRef, useCallback, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import ProgressStepper from "@/components/ProgressStepper";
-import SkipLink from "@/components/SkipLink";
 import { bugFlags } from "@/lib/flags";
 
 const OTP_CODE = "1234";
@@ -142,8 +141,6 @@ export default function OtpVerify() {
           Verify
         </button>
       </form>
-
-      <SkipLink />
     </div>
   );
 }

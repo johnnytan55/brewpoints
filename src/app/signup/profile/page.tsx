@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import ProgressStepper from "@/components/ProgressStepper";
-import SkipLink from "@/components/SkipLink";
 import { bugFlags } from "@/lib/flags";
 import { outlets } from "@/lib/outlets";
 
@@ -219,8 +218,6 @@ export default function Profile() {
           Continue
         </button>
       </form>
-
-      <SkipLink />
     </div>
   );
 }
